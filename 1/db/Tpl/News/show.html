@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>显示文章列表</title>
+</head>
+<body>
+<form action="__METH__" method="post" name="form1">
+<a href="__CONTROL__/addNews">发表文章</a><br/>
+<table border="1" width="80%">
+	  <tr>
+	  	<td>序号</td>
+	  	<td>标题</td>
+	  </tr>
+	<list from="$news" name="n">
+	  <tr>
+	  	<td>{$n.id}</td>
+	  	<td>{$n.title}</td>
+	  </tr>
+	</list>
+</table>
+{$page}
+</form>
+</body>
+</html>
