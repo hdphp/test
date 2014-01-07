@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/D/wamp/www/test/1"
+		},
+		{
+			"path": "/D/wamp/www/test"
 		}
 	]
 }

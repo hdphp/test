@@ -4,8 +4,8 @@
 	<title>显示文章列表</title>
 </head>
 <body>
-<form action="http://localhost:8081/test/1/db.php/News/show" method="post" name="form1">
-<a href="http://localhost:8081/test/1/db.php/News/addNews">发表文章</a><br/>
+<form action="http://localhost/test/1/db.php/News/show" method="post" name="form1">
+<a href="http://localhost/test/1/db.php/News/addNews">发表文章</a><br/>
 <table border="1" width="80%">
 	  <tr>
 	  	<td>序号</td>
